@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="An online heads-or-tails game where you can flip a virtual coin by pressing a button or the coin itself. Get random results and have fun testing your luck."
+    />
+    <meta
+      name="keywords"
+      content="heads or tails, coin toss, virtual coin, game of chance, coin simulator, heads or tails, coin flip, interactive game, random coin."
+    />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Heads or Tails | Coin Flip Simulator</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+  </head>
+  <body>
+    <main>
+      <section class="content">
+        <h1>Flip the coin</h1>
+        <h2 class="instructions">
+          Press the coin or the button to flip the coin
+        </h2>
+        <div class="coins-container">
+          <div>
+            <div class="face front-side">
+              <img
+                id="heads-coin"
+                src="./resources/heads.svg"
+                width="160"
+                height="160"
+                alt="heads coin"
+              />
+            </div>
+            <div class="face back-side">
+              <img
+                id="tails-coin"
+                src="./resources/tails.svg"
+                width="160"
+                height="160"
+                alt="tails coin"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="oval-shade"></div>
+        <p class="flip-result">-</p>
+        <button class="btn-random" type="button">Random</button>
+      </section>
+    </main>
+    <footer class="author-info">
+      Coded by <a href="#">Sebastian Aguiñada</a> | Challenge by
+      <a
+        href="www.linkedin.com/in/sebastián-emilio-aguiñada-coto-497a3527b"
+        target="_blank"
+        >devChallenges.io</a
+      >.
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
